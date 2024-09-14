@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopSphere</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<link rel="stylesheet" href="style.css">
+<body>
+    <nav class="navbar">
+        <h1>ShopSphere</h1>
+        <div class="navlink">
+            <p class="navlinks"><a href="index.html">Home</a> </p>
+            <p class="navlinks"><a href="collection.html">Collections</a> </p>
+            <p class="navlinks"><a href="contact.html">Contact</a> </p>
+        </div>
+        <div class="navbar-toggle" onclick="opennav()">
+            <p onclick="opennav()"><i class="fa-solid fa-bars"></i></p>
+    
+    
+        </div>
+
+    </nav>
+    <div class="side-navbar">
+       <p style="text-align: right;" onclick="closenav()"><i class="fa-solid fa-xmark"></i></p>
+       <div class="side-navbarlinks">
+        <p class="sidenavlinks"><a href="index.html">Home</a> </p>
+        <p class="sidenavlinks"><a href="collection.html">Collections</a> </p>
+        <p class="sidenavlinks"><a href="contact.html">Contact</a> </p>
+       </div>
+    </div>
+    <div class="Product-section">
+        <form class="Product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="Products" id="Products">
+           <div class="Products-box">
+            <img src="casual.jpg.webp" alt="Casuals" height="400px" width="360px">
+            <h4>Casual Shirts</h4>
+            </div>
+            <div class="Products-box">
+            <img src="formal.jpg.webp" alt="Formals" height="400px" width="360px">
+            <h4>Formal Shirts</h4>
+            </div>
+           
+            <div class="Products-box">
+            <img src="kids.jpg.webp" alt="Kids" height="400px" width="360px">
+            <h4>Kids Wear</h4>
+            </div>
+            <div class="Products-box">
+            <img src= "mens.jpg.webp" alt="Mens" height="400px" width="360px" >
+            <h4>Mens Wear</h4></div>
+            <div class="Products-box">
+            <img src="womens.jpg.webp" alt="Womens" height="400px" width="360px">
+            <h4>Womens Wear</h4></div>
+            <div class="Products-box">
+            <img src="party.jpg.png" alt="party" height="400px" width="360px">
+            <h4>Party Wear</h4>
+            </div>
+            <div class="Products-box">
+            <img src="traditional.jpg.png" alt="Traditional" height="400px" width="360px">
+            <h4>Traditional Wear</h4>
+            </div>
+            <div class="Products-box">
+            <img src="tshirt.jpg.webp" alt="Tshirt" height="400px" width="360px">
+            <h4>T-Shirts</h4>
+            </div>
+           </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-container">
+        <div class="footer-box1">
+            <h2 class="heading text">ShopSphere</h2>
+            <h4 style="padding-left: 10px; padding-bottom: 5px; padding-top: 10px;">Online shopping</h4>
+            <p style="padding-left: 10px; padding-top: 5px;">Men's Wear || Women's Wear || Kid's Wear || Trending Now </p>
+            <div class="footer-icon-container" style="padding: 10px;">
+                <p>KEEP IN TOUCH</p>
+                <i class="fa-brands fa-instagram" style="color: white;"></i>
+                <i class="fa-brands fa-twitter" style="color: white;"></i>
+                <i class="fa-brands fa-facebook" style="color: white;"></i>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
